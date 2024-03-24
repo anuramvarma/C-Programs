@@ -3,10 +3,10 @@ int main()
 {
    int row,col;
 printf("Enter Number of rows");
-  scanf("%d",&row);
+   scanf("%d",&row);
 printf("Enter number of columns");
    scanf("%d",&col);
-  int A[row][col],B[row][col], result[row][col],i,j;
+   int A[row][col],B[row][col], result[row][col],i,j;
 printf("Enter First matrix values");
   for(i=0;i<row;i++)
 {
@@ -15,7 +15,7 @@ printf("Enter First matrix values");
            scanf("%d",&A[i][j]);
         }
 }
-printf("Enter the Second matrix ");
+  printf("Enter the Second matrix ");
      for(i=0;i<row;i++)
          {
            for(j=0;j<col;j++)
@@ -23,7 +23,7 @@ printf("Enter the Second matrix ");
                     scanf("%d",&B[i][j]);
                 }
          }
-  printf("Addition of Two matrices\n");
+   printf("Addition of Two matrices\n");
       for(i=0;i<row;i++)
          {
           for(j=0;j<col;j++)
