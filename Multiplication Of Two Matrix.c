@@ -19,9 +19,10 @@ int main()
    int b[p][q] ;
    printf("enter the %d elements in second matrix\n", p*q);
    for(i=0;i<p;i++){
-       for(j=0;j<q;j++) {
+       for(j=0;j<q;j++) 
+       {
          scanf("%d",&b[i][j] );
-     } 
+       } 
    } 
    int c[m][q] ;
    if(n==p) 
@@ -39,8 +40,8 @@ int main()
          }
            }
      else
-     {
-      printf("matrix multiplication is not possible");
+      {
+       printf("matrix multiplication is not possible");
       } 
      for(i=0;i<m;i++)
      {
@@ -48,7 +49,7 @@ int main()
          { 
            printf("%d\t", c[i][j] );
          }
-          printf("\n");
+           printf("\n");
       }
   return 0;
-  } 
+} 
