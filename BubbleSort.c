@@ -2,9 +2,9 @@
 int main()
 {
 int n, i, temp, j;
-printf("enter the length of array");
-scanf("%d", &n);
-printf("enter %d elements", n);
+printf("Enter the length of array");
+  scanf("%d", &n);
+printf("Enter %d elements", n);
 int a[n] ;
    for(i=0;i<n;i++)
    {
@@ -23,9 +23,9 @@ int a[n] ;
          } 
       } 
       for(i=0;i<n;i++) 
-      {
-       printf("%d\n", a[i] );
-      }
+       {
+         printf("%d\n", a[i] );
+       }
       return 0;
 }
 
